@@ -1,0 +1,7 @@
+Coloca aquí tus fotografías con estos nombres:
+perfil.jpg  - foto principal
+ evento1.jpg - primer evento
+ evento2.jpg - segundo evento
+ evento3.jpg - tercer evento
+
+Puedes usar archivos .png o .webp, pero debes cambiar su extensión también en index.html y script.js.

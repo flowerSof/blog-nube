@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Blog personal de Sofía Flores: sobre mí, experiencias, eventos y fotografías." />
+  <meta name="theme-color" content="#10121b" />
+  <title>Sofía Flores | Mi espacio personal</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio">SF<span>.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a><a href="#eventos">Eventos</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">BIENVENIDO A MI ESPACIO ✦</span>
+        <h1>Hola, soy <em>Sofía.</em><br />Este es mi mundo.</h1>
+        <p>Un lugar para compartir quién soy, los proyectos que me inspiran y los momentos que quiero recordar.</p>
+        <div class="actions"><a class="btn primary" href="#sobre-mi">Conóceme <span>↗</span></a><a class="btn secondary" href="#eventos">Ver mis experiencias</a></div>
+        <div class="hero-bottom"><span>CREATIVIDAD · APRENDIZAJE · EXPERIENCIAS</span><span>PERÚ ✳</span></div>
+      </div>
+      <div class="portrait-wrap"><div class="portrait-deco"></div><img src="images/perfil.jpg" alt="Fotografía personal de Sofía" onerror="this.hidden=true;this.nextElementSibling.hidden=false"/><div class="photo-placeholder" hidden>Tu foto aquí <small>images/perfil.jpg</small></div><div class="portrait-sticker">¡HOLA! ✳</div></div>
+    </section>
+    <section class="about section" id="sobre-mi">
+      <div><span class="eyebrow">01 / SOBRE MÍ</span><h2>Un poco <em>sobre mí.</em></h2></div>
+      <div class="about-text"><p>¡Hola! Soy <strong>Sofía Sharon Flores García</strong>. Me interesa la tecnología, la creatividad y aprender de nuevas experiencias. Este blog reúne una parte de mi recorrido personal y profesional.</p><p>Disfruto descubrir ideas, participar en actividades y guardar recuerdos de los lugares y eventos que forman parte de mi historia.</p><p class="muted">Puedes personalizar estos párrafos con tus estudios, intereses, logros y metas.</p><div class="tags"><span>✦ Tecnología</span><span>✦ Creatividad</span><span>✦ Eventos</span><span>✦ Aprendizaje</span></div></div>
+    </section>
+    <section class="events section" id="eventos"><div class="section-head"><div><span class="eyebrow">02 / MI RECORRIDO</span><h2>Eventos & <em>experiencias.</em></h2></div><p>Momentos que merecen ser recordados.</p></div><div class="event-grid" id="event-grid"></div></section>
+    <section class="gallery section" id="galeria"><div class="section-head"><div><span class="eyebrow">03 / RECUERDOS</span><h2>Mi galería <em>visual.</em></h2></div><p>Pequeñas historias en fotografías.</p></div><div class="gallery-grid" id="gallery-grid"></div></section>
+    <section class="contact section" id="contacto"><span class="eyebrow">04 / CONECTEMOS</span><h2>¿Seguimos en <em>contacto?</em></h2><p>Encuéntrame en mis redes y acompáñame en mis próximas experiencias.</p><div class="socials" id="socials"></div><a class="email-link" href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com ↗</a></section>
+  </main>
+  <footer><span>© <span id="year"></span> Sofía Flores. Hecho con ♥</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <dialog id="lightbox" aria-label="Vista ampliada de fotografía"><button id="close-lightbox" aria-label="Cerrar fotografía">✕</button><img id="lightbox-image" alt="" /></dialog>
+</body>
+</html>
